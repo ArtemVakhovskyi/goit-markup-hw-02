@@ -63,18 +63,23 @@ address {
   text-align: center;
 }
 .hero-btn {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
   cursor: pointer;
   color: #ffffff;
   border-radius: 4px;
-  padding: 16px 32px;
   width: 169px;
   height: 56px;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background-color: #4d5ae5;
-  display: block;
-  margin: 0 auto;
 }
 .hero-btn:hover {
+  background-color: #404bbf;
+}
+.hero-btn:focus {
   background-color: #404bbf;
 }
 .skills-subtitle {
@@ -93,6 +98,7 @@ address {
   background-color: #f4f4fd;
 }
 .team-title {
+  text-transform: capitalize;
   color: #2e2f42;
   font-weight: 700;
   font-size: 36px;
@@ -101,6 +107,7 @@ address {
   text-align: center;
 }
 .team-subtitle {
+  background-color: #ffffff;
   color: #2e2f42;
   font-weight: 500;
   font-size: 20px;
@@ -108,11 +115,13 @@ address {
   letter-spacing: 0.02em;
 }
 .team-text {
+  background-color: #ffffff;
   font-size: 16px;
   line-height: 150%;
   letter-spacing: 0.02em;
 }
 .portfolio-title {
+  text-transform: capitalize;
   color: #2e2f42;
   font-weight: 700;
   font-size: 36px;
