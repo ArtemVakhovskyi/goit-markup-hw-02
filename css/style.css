@@ -13,6 +13,9 @@ body {
   font-family: "Roboto", sans-serif;
   color: #434455;
 }
+address {
+  font-style: normal;
+}
 .header-studio {
   color: #2e2f42;
 }
@@ -20,7 +23,7 @@ body {
   color: #ffffff;
 }
 .logo {
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 117%;
@@ -38,6 +41,9 @@ body {
 }
 .header-nav-link:active {
   text-decoration: underline#404BBF;
+}
+.header-nav-link:focus {
+  color: #404bbf;
 }
 .header-contact-link {
   color: #434455;
