@@ -99,6 +99,9 @@ address {
 .team-list {
   background-color: #ffffff;
 }
+.team-item {
+  background-color: #ffffff;
+}
 .team-title {
   text-transform: capitalize;
   color: #2e2f42;
