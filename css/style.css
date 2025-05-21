@@ -23,7 +23,7 @@ address {
   color: #2e2f42;
 }
 .footer-studio {
-  color: #ffffff;
+  color: #f4f4fd;
 }
 .logo {
   font-family: "Raleway", sans-serif;
@@ -96,6 +96,9 @@ address {
 .team {
   background-color: #f4f4fd;
 }
+.team-list {
+  background-color: #ffffff;
+}
 .team-title {
   text-transform: capitalize;
   color: #2e2f42;
@@ -144,7 +147,7 @@ address {
   background-color: #2e2f42;
 }
 .footer-text {
-  color: #ffffff;
+  color: #f4f4fd;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
